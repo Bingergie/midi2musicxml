@@ -89,8 +89,27 @@
         <mxCell id="IaMV2PV-vSsLoISrMVWB-34" value="&lt;div&gt;velocity &amp;gt; 0?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1395" y="640" width="165" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="eBD02ZSu1VXTSY3I5ScI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IaMV2PV-vSsLoISrMVWB-36" target="IaMV2PV-vSsLoISrMVWB-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1775" y="630" />
+              <mxPoint x="820" y="630" />
+              <mxPoint x="820" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IaMV2PV-vSsLoISrMVWB-36" value="activeNotes[Pair(channel, pitch)]&lt;div&gt;.enqueue(ActiveNote(pitch, velocity, startTick))&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1650" y="645" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eBD02ZSu1VXTSY3I5ScI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IaMV2PV-vSsLoISrMVWB-38" target="IaMV2PV-vSsLoISrMVWB-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="920" />
+              <mxPoint x="810" y="920" />
+              <mxPoint x="810" y="700" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IaMV2PV-vSsLoISrMVWB-38" value="activeNotes[Pair(channel, pitch)].dequeue()&lt;div&gt;create Note StaffObject and append to staves[channel].objects&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1100" y="810" width="260" height="60" as="geometry" />
