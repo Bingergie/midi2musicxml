@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="29.2.7">
   <diagram name="Page-1" id="msjgdIZIqNedyK80xKoT">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZolmLBXkgQOg5HNcul78-5" edge="1" parent="1" source="ZolmLBXkgQOg5HNcul78-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZolmLBXkgQOg5HNcul78-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZolmLBXkgQOg5HNcul78-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Start" vertex="1">
+          <mxGeometry height="60" width="100" x="400" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZolmLBXkgQOg5HNcul78-12" edge="1" parent="1" source="ZolmLBXkgQOg5HNcul78-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZolmLBXkgQOg5HNcul78-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZolmLBXkgQOg5HNcul78-3" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Reference to midi file is passed to and stored this class&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ZolmLBXkgQOg5HNcul78-9" edge="1" parent="1" source="ZolmLBXkgQOg5HNcul78-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZolmLBXkgQOg5HNcul78-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZolmLBXkgQOg5HNcul78-6" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Parse midi file into sequences (tracks) using the java midi package" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="ZolmLBXkgQOg5HNcul78-11" edge="1" parent="1" source="ZolmLBXkgQOg5HNcul78-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZolmLBXkgQOg5HNcul78-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZolmLBXkgQOg5HNcul78-8" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="loop over the events in each sequence and create corresponding music symbols stored using the internal data structure" vertex="1">
+          <mxGeometry height="90" width="170" x="365" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ZolmLBXkgQOg5HNcul78-10" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="return a reference to the stored data when&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="675" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
