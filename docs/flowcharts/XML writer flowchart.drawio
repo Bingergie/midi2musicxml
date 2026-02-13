@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="29.3.8">
+  <diagram name="Page-1" id="xlKdS_fa2ENeDv1em2Lc">
+    <mxGraphModel dx="1306" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b9B63-IxdLsRONaeO_y4-5" edge="1" parent="1" source="b9B63-IxdLsRONaeO_y4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b9B63-IxdLsRONaeO_y4-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b9B63-IxdLsRONaeO_y4-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Start" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b9B63-IxdLsRONaeO_y4-7" edge="1" parent="1" source="b9B63-IxdLsRONaeO_y4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="b9B63-IxdLsRONaeO_y4-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b9B63-IxdLsRONaeO_y4-4" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Reference to Score passed to and stored in this class" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="b9B63-IxdLsRONaeO_y4-6" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
