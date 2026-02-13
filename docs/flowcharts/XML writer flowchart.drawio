@@ -16,8 +16,20 @@
         <mxCell id="b9B63-IxdLsRONaeO_y4-4" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Reference to Score passed to and stored in this class" vertex="1">
           <mxGeometry height="60" width="120" x="365" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="b9B63-IxdLsRONaeO_y4-6" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="" vertex="1">
+        <mxCell id="9aq0JE1GJycvRK4T0Jzi-2" edge="1" parent="1" source="b9B63-IxdLsRONaeO_y4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9aq0JE1GJycvRK4T0Jzi-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b9B63-IxdLsRONaeO_y4-6" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Create xml objects according to objects in Score using JAXB" vertex="1">
           <mxGeometry height="60" width="120" x="365" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9aq0JE1GJycvRK4T0Jzi-6" edge="1" parent="1" source="9aq0JE1GJycvRK4T0Jzi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9aq0JE1GJycvRK4T0Jzi-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9aq0JE1GJycvRK4T0Jzi-1" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Use JAXB Marshaller to write the complete xml to file" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="9aq0JE1GJycvRK4T0Jzi-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" value="End" vertex="1">
+          <mxGeometry height="60" width="105" x="373" y="570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
